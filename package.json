@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-102",
+  "version": "1.0.0",
+  "description": "a react redux application",
+  "main": "app.js",
+  "scripts": {
+    "2js": "babel --presets react,es2015 src --out-dir buildReact",
+    "pack": "webpack buildReact/app.js build/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saumya"
+  },
+  "keywords": [
+    "reactjs",
+    "redux"
+  ],
+  "author": "saumya",
+  "license": "MIT"
+}
